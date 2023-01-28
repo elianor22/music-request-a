@@ -14,10 +14,10 @@ const HomePage = () => {
 
   return (
     <Box>
-      <Box>
-        <InputLink onClick={(val: string) => setPastedLink(val)} />
-      </Box>
       <Container maxWidth="sm">
+        <Box>
+          <InputLink onClick={(val: string) => setPastedLink(val)} />
+        </Box>
         <Box pt={3}>
           <Typography
             sx={{

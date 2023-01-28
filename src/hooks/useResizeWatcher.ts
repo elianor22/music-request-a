@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 // eslint-disable-next-line @typescript-eslint/ban-types
 export const resizeWatcher = (reference: any, onChangeDimension: Function): void => {
-    // console.log(reference)
+
     function checkResize(mutations: any) {
-        console.log('mutations',mutations)
+
         // reference.addEventListener('resize', (event: any) => onChangeDimension?.(event.detail))
         // const el = mutations[0].target
         // const width = el.clientWidth
